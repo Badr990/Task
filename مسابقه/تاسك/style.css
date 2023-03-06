@@ -1,0 +1,542 @@
+
+ *{
+        margin: 0%;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+ }
+
+header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+    position: relative;
+    background-color: white;
+    margin-bottom: 35px;
+}
+.search-1{
+    display: flex;
+    position: relative;
+    margin-top: 5px;
+    
+}
+.search-1 input{
+    border: none;
+    padding:5px 5px 5px 25px;
+    border-radius: 8px;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    
+
+    
+}
+.search-1 input:hover{
+    border: none;
+   padding-left: 25;
+   text-align: left;
+   outline: none;
+}
+
+.fa-search{
+    position: absolute;
+    padding-top: 5px;
+    padding-left: 5px;
+    color: rgb(151, 151, 151);
+
+  
+
+
+}
+.name {
+    border: solid 3px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 2px;
+    margin-right: 70px;
+
+}
+.name  a{
+    text-decoration: none;
+    color: rgb(71, 69, 69);
+    font-weight: bold;
+}
+.icons{
+    margin-top: 5px;
+
+}
+.icons i{
+    font-size: 20px;
+    margin-left: 10px;
+    color: rgb(110, 110, 110);
+    transition: width 1s;
+}
+.icons i:hover{
+   width: 25px;
+}
+.icons sup{
+    background-color: rgb(156, 76, 231);
+    position: absolute;
+    top:-15px;
+    right: 160px;
+    font-size: xx-small;
+    color: white;
+    border: none;
+    border-radius:50% ;
+    padding: 3px 5px;
+
+}
+
+.nav-center{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom:20px;
+}
+.nav-center a{
+    margin-right: 35px;
+    text-decoration: none;
+    color: rgb(92, 90, 90);
+    font-size: 20;
+ 
+}
+.nav-center a:hover{
+    color: rgb(135, 54, 211);
+}
+.section-one{
+    background-color: rgba(94, 255, 255, 0.822);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 25px;
+}
+.section-one-left img{
+    margin-top: 35px;
+    width: 490px;
+    height: 310px;
+    margin-right: -100px;
+}
+.section-one-reight{
+    margin-top: 100px;
+
+    margin-left: -150px;
+}
+.section-one-reight ul{
+    list-style-type: none;
+
+}
+.section-one-reight .list1{
+    font-size: 45px;
+    font-weight: bolder;
+}
+.section-one-reight .list3{
+    border: none;
+    padding: 7px 10px;
+    background-color: rgb(156, 76, 231);
+    width: 100px;
+    border-radius: 3px;
+
+}
+.section-one-reight .list3 a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding-left: 5px;
+
+    
+}
+.section-one-reight .list3:hover{
+  background-color: rgb(93, 50, 209);
+  border: none;
+    border-radius: 3px;
+    padding: 7px 10px;
+    padding-bottom: 10px;
+   margin-bottom: 5px;
+   padding-top: 2px;
+
+    box-shadow:  3px 3px 3px #1b0f3d ;
+}
+.section-two{
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 35px;
+}
+.section-two .section-two-1{
+display: flex;
+justify-content: space-around;
+}
+.section-two .section-two-2{
+    display: flex;
+}
+.section-two .section-two-3{
+    display: flex;
+  
+}
+.section-two i{
+    padding-right: 25px;
+    font-size: 32px;
+    color: rgb(135, 54, 211);
+
+}
+.section-two-3  .fa-question{
+   
+    color: white;
+    margin-right: 25px;
+    font-size: 32px;
+    border: none;
+    padding: 1px 7px 1px 7px;
+    border-radius: 50%;
+    background-color:  rgb(135, 54, 211);
+    align-items: center;
+
+}
+.section-three{
+    margin-top: 80px;
+    display: flex; 
+    margin-bottom: 80px;
+}
+.section-three .img-three{
+position: relative;
+margin-left: 100px;
+margin-right: 40px; 
+transition: width height 2s;
+}
+.section-three .img-three:hover{
+    width: 420px;
+    height:520px
+    
+}
+    
+.section-three .img-three-2{
+    position: relative;
+
+    margin-right: 40px; 
+    transition: width height 2s;
+    }
+    .section-three .img-three-2:hover{
+        width: 420px;
+        height:520px
+        
+    }
+    .section-three .img-three-3{
+        position: relative;
+    
+        margin-right: 40px; 
+        transition: width height 2s;
+        }
+        .section-three .img-three-3:hover{
+            width: 420px;
+            height:520px
+            
+        }
+            
+.section-three .img-three .women{
+    width: 400px;
+    height: 500px;
+    transition: width height 2s;
+}
+.section-three .img-three .women:hover{
+    width: 420px;
+    height:520px;
+
+}
+.section-three h3{
+    position: absolute;
+    top: 460px;
+    left: 20px;
+    color: white;
+    font-size: 30px;
+ }
+ .section-three  .shfaf{
+    border: none;
+    width: 400px;
+    height: 500px;
+    background-color: rgba(48, 47, 47, 0.233);
+    position: absolute;
+    top: 0px;
+ }
+ .section-three   p{
+    position: absolute;
+    top: 435px;
+    left: 20px;
+    color: white;
+ }
+ .section-three .img-three-2{
+    position: relative;
+margin-right: 40px;
+}
+.section-three .img-three-3{
+    position: relative;
+}
+/*معملتش الهفر*/
+.section-four
+{
+    background-color: rgba(228, 231, 238, 0.61);
+    width: 100%;
+    height: 720px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-top:50px ;
+    padding-left:120px ;
+}
+.section-four-1{
+    display: flex;
+    position: relative;
+    padding-top: 50px;
+}
+
+.section-four-1 .products{
+    border: none;
+    width: 400px;
+    height: 550px;
+    background-color: white;
+ margin-right: 50px;
+ transition: height  1s;
+}
+.section-four-1 .products:hover{
+    height: 570px;
+   
+}
+.section-four-1 .products_2{
+    border: none;
+    width: 400px;
+    height: 550px;
+    background-color: white;
+ margin-right: 50px;
+ transition: height  1s;
+}
+.section-four-1 .products_2:hover{
+    height: 570px;
+   
+}
+.section-four-1 .products_3{
+    border: none;
+    width: 400px;
+    height: 550px;
+    background-color: white;
+ margin-right: 50px;
+ transition: height  1s;
+}
+.section-four-1 .products_3:hover{
+    height: 570px;
+   
+}
+.section-four-1 .products_2{
+    border: none;
+    width: 400px;
+    height: 550px;
+    background-color: white;
+    margin-right: 50px;
+    position: relative;
+}
+.section-four-1 .products_3{
+    border: none;
+    width: 400px;
+    height: 550px;
+    background-color: white;
+    margin-right: 50px;
+    position: relative;
+}
+.section-four-1 .products h3{
+color: rgb(124, 86, 226);
+position: absolute;
+top: 480px;
+left: 140px;
+}
+.section-four-1  .products p{
+
+    position: absolute;
+top: 510px;
+left: 100px;
+}
+.section-four-1 .products  h4{
+    color: rgb(124, 86, 226);
+    position: absolute;
+    top: 540px;
+    left: 158px;
+}
+
+
+.section-four h1{
+    display: flex;
+    justify-content: center;
+
+}
+
+.section-four-1 .products_2 h3{
+           top: 430px;
+            color: rgb(124, 86, 226);
+            left: 140px; 
+              position: absolute;
+          
+    }
+    .section-four-1  .products_2 p{
+    
+        position: absolute;
+    top: 460px;
+    left: 100px;
+
+    }
+    .section-four-1 .products_2  h4{
+        color: rgb(124, 86, 226);
+        position: absolute;
+        top: 490px;
+        left: 158px;
+    }
+    .section-four-1 .products_3 h3{
+        color: rgb(124, 86, 226);
+        position: absolute;
+        top: 430px;
+        left: 140px;
+        }
+        .section-four-1  .products_3 p{
+        
+            position: absolute;
+        top: 460px;
+        left: 100px;
+        }
+        .section-four-1 .products_3  h4{
+            color: rgb(124, 86, 226);
+            position: absolute;
+            top: 490px;
+            left: 158px;
+        }
+        /*نسيت الخط*/
+        .section-five h1{
+            display: flex;
+            justify-content: center;
+        
+        }
+.section-five-products{
+   
+    width: 100%;
+    height: 440px;
+     display: flex;
+    padding-top: 35px;
+    justify-content: space-evenly;
+
+}
+.section-five-products img{
+    margin-top: 35px;
+    width: 490px;
+    height: 310px;
+}
+.section-five-right{
+    padding-top: 100px;
+   
+}
+.section-five-right .items{
+    font-size: 22px;
+    color: rgb(133, 50, 211);
+    font-weight: 600;
+    padding-left: 100px;
+}
+.section-five-right .items1{
+    padding-left: 95px;
+    color: rgb(180, 180, 180);
+}
+.section-five-right .items1 span{
+    color: rgb(133, 50, 211);
+    font-weight: bold;
+}
+.section-five-right .items2{
+    padding-left: 50px;
+}
+.section-five-right .items4{
+    padding-left: 100px;
+    padding-bottom: 20px;
+}
+.section-five-right .boton {
+    border: none;
+    padding: 7px 10px;
+    background-color: rgb(156, 76, 231);
+    width: 100px;
+    border-radius: 3px;
+  margin-left: 150px;
+   
+    
+}
+.section-five-right  a{
+ 
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding-left: 5px;
+    
+}
+.section-five-right .boton:hover{
+    background-color: rgb(93, 50, 209);
+  border: none;
+    border-radius: 3px;
+    padding: 7px 10px;
+    padding-bottom: 10px;
+   margin-bottom: 5px;
+   padding-top: 2px;
+
+    box-shadow:  3px 3px 3px #1b0f3d ;
+}
+
+.section-six{
+    margin-top: 60px;
+    width: 100%;
+    height: 400px;
+}
+.section-six-list{
+    display: flex;
+    justify-content: space-around;
+}
+.section-six-list ul{
+    list-style-type: none;
+}
+.section-six-list ul .list-bold{
+    font-weight: bolder;
+    color: black;
+}
+.section-six-list ul .list-color{
+    color: rgb(156, 76, 231);
+    font-size: 17px;
+}
+.section-six-list ul li{
+    color: rgb(131, 129, 129);
+}
+.section-six-list .list{
+    margin-right:-120px ;
+}
+.section-six-list .email-E{
+    height: 30px;
+    padding-left: 10px;
+    border: solid .5px;
+    border-radius: 4px;
+    border-color: rgb(173, 172, 172);
+}
+.section-six-list .sup-s{
+    height: 30px;
+    width: 50px;
+    background-color: rgb(156, 76, 231);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    margin-left: -7px;
+    font-size: 10px;
+    box-shadow: 2px 1px 2px rgb(101, 12, 184) ;
+}
+.section-six-list .sup-s:hover{
+    background-color: rgb(93, 50, 209);
+  border: none;
+    border-radius: 3px;
+   margin-bottom: 5px;
+   padding-top: 2px;
+
+    box-shadow:  3px 3px 3px #1b0f3d ;   
+}
+.section-six h5{
+    margin-left: 35%;
+    color: rgb(138, 138, 138);
+}
+.section-six h5 span{
+    color: rgb(156, 76, 231);
+
+}

@@ -1,0 +1,428 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    position: relative;
+}
+
+.header-img{
+    position: relative;
+    z-index: -4;
+   top: -150px;
+
+}
+.deliver{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 100%;
+    position: absolute;
+    top: 50px;
+   
+}
+.deliver-nav{
+    display: flex;
+    margin-right: 50px;
+   
+}
+.deliver-nav a{
+margin-right: 30px;
+text-decoration: none;
+color: rgb(124, 123, 123);
+}
+
+
+ .deliver-nav a:hover{
+    border-bottom: solid;
+    border-color:rgb(174, 28, 211);
+    border-width: 3px;
+    
+   
+
+}
+.deliver-nav img{
+    margin-right: 20px;
+    width: 90px;
+    height: 55px;
+    margin-right: 30px;
+    margin-left: 100px;
+  
+
+}
+.deliver button{
+    margin-top: 10px;
+    border: solid 1px;
+    padding: 5px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-color: rgba(255, 222, 173, 0);
+    border-radius: 20px;
+    background-color: white;
+    margin-right: 100px;
+    font-weight: bold;
+}
+
+.deliver button a{
+    text-decoration: none;
+    color: rgb(124, 123, 123);
+}
+.deliver button :hover{
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+    background-color: azure;
+}
+.deliver-img{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+}
+.deliver-img ul{
+    list-style-type: none;
+   color:  rgb(173, 172, 172);
+  
+}
+.deliver-text{
+    font-size: 30px;
+    font-weight:bold;
+    color: rgb(126, 124, 124);
+}
+.deliver-text span{
+    color: rgb(174, 28, 211);
+}
+.img-baloon{
+    z-index: -3;
+    width: 650px;
+    position: absolute;
+    left: 400px;
+    top: 0px;
+ 
+}
+.img-man{
+    z-index: -2;
+    width: 240px;
+    position: absolute;
+    left: 550px;
+    top: 40px;
+
+}
+.img-cloud{
+    z-index: 1;
+    width: 400px;
+    position: absolute;
+    top: 360px;
+    left: 500px;
+}
+.img-wave{
+    z-index: -1;
+    width: 1500px;
+    height: 300px;
+    position: absolute;
+    top: 410px;
+   left: -750px;
+}
+.body-map{
+    position: relative;
+}
+.body-map .moto{
+    position: absolute;
+    top :150px;
+    left: 150px;
+}
+.body-map .time{
+    position: absolute;
+    top :320px;
+    left: 700px;
+    z-index: 1;
+}
+.body-map .discount{
+    position: absolute;
+    top :675px;
+    right: 50px;
+}
+.body-map .kudzka{
+    position: absolute;
+    top :650px;
+    left: 80px;
+    z-index: -1;
+    width: 370px;
+}
+.body-map .map{
+    position: absolute;
+    top :50px;
+    left: 280px;
+}
+.body-map .moto-text{
+    position: absolute;
+    top :350px;
+    left: 180px;
+    font-size: 20px;
+    font-weight: bold;
+    font-weight:bold;
+    color: rgb(78, 78, 78);
+}
+.body-map .time-text{
+    position: absolute;
+    top :520px;
+    left: 730px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(78, 78, 78);
+}
+.body-map .discount-text{
+    position: absolute;
+    top :875px;
+    right: 160px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(78, 78, 78);
+}
+.body-map .moto-textp{
+    position: absolute;
+    top :380px;
+    left: 140px;
+text-align: center;
+   
+    color: rgb(134, 130, 130);
+}
+.body-map .time-textp{    position: absolute;
+    top :550px;
+    left: 650px;
+  
+    text-align: center;
+    color: rgb(134, 130, 130);
+    
+}
+.body-map .discount-textp{
+    position: absolute;
+    top :905px;
+    right: 30px;
+    text-align: center;
+
+    color: rgb(134, 130, 130);
+}
+.body-map .list-body{
+    list-style-type: none;
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    top :770px;
+    left: 170px;
+}
+
+
+.body-map .list-bodyli{
+    color: white;
+  margin-top: 5px;
+    font-size: 45px;
+}
+.change-img{
+    position: relative;
+    
+}
+.change-img .change-img1{
+    position: absolute;
+    top: 1130px;
+    left :250px;
+    width: 150px;
+    transition: width 2s;
+}
+.change-img .change-img1:hover{
+    width: 200px;
+}
+.change-img .change-img2{
+    position: absolute;
+    top: 1040px;
+    left :600px;
+    width: 350px;
+    transition: width 2s;
+}
+.change-img .change-img2:hover{
+    width: 400px;
+}
+.change-img .change-img3{
+    position: absolute;
+    top: 1170px;
+    left :1100px;
+    width: 150px;
+    transition: width 2s;
+
+}
+.change-img .change-img3:hover{
+    width: 200px;
+}
+.buton1{
+    position: absolute;
+    top: 1270px;
+    left :500px;
+  font-size: 30px;
+    border: none;
+    background-color: white;
+    color: rgb(134, 130, 130);
+    transition: width  1s;
+   
+}
+.buton1:hover{
+    width: 30px;
+    
+}
+.buton2{
+    position: absolute;
+    top: 1270px;
+    left :1000px;
+    font-size: 30px;
+    border: none;
+    background-color: white;
+    color: rgb(134, 130, 130);
+    transition: width 1s;
+}
+.buton2:hover{
+    width: 30px;
+}
+.div-d{
+    position: relative;
+
+}
+.change-img .buton1 a{
+    color: rgb(134, 130, 130);
+    text-decoration: none;
+
+}
+.change-img .buton2 a{
+    color: rgb(134, 130, 130);
+    text-decoration: none;
+    size: 20px;
+
+}
+.change-img .round-3{
+    position: absolute;
+    top :1330px;
+    left: 670px;
+    font-size: 20px;
+    font-weight: bold;
+    font-weight:bold;
+    color: rgb(78, 78, 78);
+}
+.change-img ul{
+    list-style-type: none;
+    font-size: 18px;
+    position: absolute;
+    top :1370px;
+    left: 670px;
+    text-align: center;
+    color: rgb(134, 130, 130);
+}
+.comincation{
+
+    position: relative;
+    top: 1350px;
+    left: -1750;
+    background-image: url(groub1.png);
+    width: 1518px;
+    height: 680px;
+    z-index: -3;
+    background-repeat: no-repeat;
+
+    z-index: -2;
+    background-position-x:-350px,-20px;
+}   
+
+.comincation-img{
+    position: absolute;
+    z-index: 1;
+    width: 800px;
+    height: 480px;
+    top: 200px;
+    left: 650px;
+
+}
+
+.comincation .navbar-down nav{
+    position: absolute;
+    top:630px;
+    left: 100px;
+}
+.comincation .navbar-down a{
+text-decoration: none;
+color:white;
+margin-right: 40px;
+font-size: 17px;
+
+}
+.comincation .navbar-down a:hover{
+    border-bottom: solid;
+    border-color:rgb(174, 28, 211);
+    border-width: 3px;
+}
+.comincation .whatsapp{
+    position: absolute;
+    top:570px;
+    left: 100px;
+
+}
+.comincation .whatsapp a{
+    margin-right: 10px;
+}
+.apple {
+    border: none;
+    background-color: white;
+    position: relative;
+    top:480px;
+    left: 100px;
+    width: 125px;
+    height: 50px;
+    border-radius: 9px;
+    padding-left: 10px;
+
+}
+.Play1{
+    position: absolute;
+    top: 22px;
+    left: 35px;
+}
+
+.parg-apple{
+    position: absolute;
+    top:7px;
+    left: 35px;
+    color: rgb(165, 165, 165);
+    font-size: 12px;
+}
+
+.apple .apple-img{
+    position: absolute;
+    top: 12px;
+    padding-right: 5px;
+}
+.gogle{
+    border: none;
+    background-color: white;
+    position: relative;
+    top:432px;
+    left: 250px;
+    width: 125px;
+    height: 50px;
+    border-radius: 9px;
+    padding-left: 10px;
+}
+.Play2{
+    position: absolute;
+    top: 22px;
+    left: 35px;
+}
+.gogle-img{
+    position: absolute;
+    top: 12px;
+    padding-right: 5px;
+}
+.parg-gogle{
+    position: absolute;
+    top:7px;
+    left: 35px;
+    color: rgb(165, 165, 165);
+    font-size: 12px;
+}

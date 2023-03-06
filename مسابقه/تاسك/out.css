@@ -1,0 +1,238 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+display: flex;
+justify-content: space-around;
+margin-top: 35px;
+position: relative;
+background-color: white;
+margin-bottom: 35px;
+}
+.search-1{
+display: flex;
+position: relative;
+margin-top: 5px;
+
+}
+.search-1 input{
+border: none;
+padding:5px 5px 5px 25px;
+border-radius: 8px;
+text-align: center;
+outline: none;
+font-size: 15px;
+
+
+
+}
+.search-1 input:hover{
+border: none;
+padding-left: 25;
+text-align: left;
+outline: none;
+}
+
+.fa-search{
+position: absolute;
+padding-top: 5px;
+padding-left: 5px;
+color: rgb(151, 151, 151);
+
+
+
+
+}
+.name {
+border: solid 3px;
+padding: 5px 10px 5px 10px;
+border-radius: 2px;
+margin-right: 70px;
+
+}
+.name  a{
+text-decoration: none;
+color: rgb(71, 69, 69);
+font-weight: bold;
+}
+.icons{
+margin-top: 5px;
+
+}
+.icons i{
+font-size: 20px;
+margin-left: 10px;
+color: rgb(110, 110, 110);
+transition: width 1s;
+}
+.icons i:hover{
+width: 25px;
+}
+.icons sup{
+background-color: rgb(156, 76, 231);
+position: absolute;
+top:-15px;
+right: 160px;
+font-size: xx-small;
+color: white;
+border: none;
+border-radius:50% ;
+padding: 3px 5px;
+
+}
+
+.nav-center{
+display: flex;
+justify-content: center;
+margin-top: 20px;
+margin-bottom:20px;
+}
+.nav-center a{
+margin-right: 35px;
+text-decoration: none;
+color: rgb(92, 90, 90);
+font-size: 20;
+
+}
+.nav-center a:hover{
+color: rgb(135, 54, 211);
+}
+.Home{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    background-color: rgba(165, 163, 163, 0.164);
+    font-weight: bold;
+    margin-bottom:30px ;
+}
+.Home span{
+    color: rgb(135, 54, 211);
+    font-weight:500 ;
+}
+.click p{
+    border: solid 1px ;
+    width: 70%;
+    height: 40px;
+    border-color:rgb(202, 200, 200) ;
+    padding: 10px;
+  color: rgb(190, 190, 190);
+    margin-left: 50px;
+}
+.click a{
+    text-decoration: none;
+    color:  rgb(135, 54, 211);
+}
+.details{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+.details form{
+    border: solid 1px;
+    width: 400x;
+    height: 300px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30[x];
+}
+.details-right1 {
+    border: solid 1px;
+  padding: 20px 40px 20px 20px;
+  border-color: rgb(214, 214, 214);
+}
+#apply{
+    color: white;
+    background-color: rgb(135, 54, 211);
+}
+.details-right2{
+    display: flex;
+    justify-content: space-around;
+ 
+    
+}
+.details-right2 ul{
+ list-style-type: none;
+}
+.details-right22{
+    border: 1px solid;
+    padding: 30px;
+}
+.details-right22 h3{
+    color:rgb(135, 54, 211);
+    width: 270px;
+border: solid .5px;
+    height: 30px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.details-right22 h2{
+    color: wheat;
+    background-color:rgb(135, 54, 211) ;
+    text-align: center;
+}
+.section-six{
+    margin-top: 60px;
+    width: 100%;
+    height: 400px;
+}
+.section-six-list{
+    display: flex;
+    justify-content: space-around;
+}
+.section-six-list ul{
+    list-style-type: none;
+}
+.section-six-list ul .list-bold{
+    font-weight: bolder;
+    color: black;
+}
+.section-six-list ul .list-color{
+    color: rgb(156, 76, 231);
+    font-size: 17px;
+}
+.section-six-list ul li{
+    color: rgb(131, 129, 129);
+}
+.section-six-list .list{
+    margin-right:-120px ;
+}
+.section-six-list .email-E{
+    height: 30px;
+    padding-left: 10px;
+    border: solid .5px;
+    border-radius: 4px;
+    border-color: rgb(173, 172, 172);
+}
+.section-six-list .sup-s{
+    height: 30px;
+    width: 50px;
+    background-color: rgb(156, 76, 231);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    margin-left: -7px;
+    font-size: 10px;
+    box-shadow: 2px 1px 2px rgb(101, 12, 184) ;
+}
+.section-six-list .sup-s:hover{
+    background-color: rgb(93, 50, 209);
+  border: none;
+    border-radius: 3px;
+   margin-bottom: 5px;
+   padding-top: 2px;
+
+    box-shadow:  3px 3px 3px #1b0f3d ;   
+}
+.section-six h5{
+    margin-left: 35%;
+    color: rgb(138, 138, 138);
+}
+.section-six h5 span{
+    color: rgb(156, 76, 231);
+
+}
